@@ -1,16 +1,15 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\tresk\\source\\repos\\Shop\\Shop\\Shop.csproj",
+    "projectUniqueName": "D:\\GitHub_Repos\\Shop\\Shop\\Shop.csproj",
     "projectName": "Shop",
-    "projectPath": "C:\\Users\\tresk\\source\\repos\\Shop\\Shop\\Shop.csproj",
-    "outputPath": "C:\\Users\\tresk\\source\\repos\\Shop\\Shop\\obj\\",
+    "projectPath": "D:\\GitHub_Repos\\Shop\\Shop\\Shop.csproj",
+    "outputPath": "D:\\GitHub_Repos\\Shop\\Shop\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
@@ -53,7 +52,16 @@
         "net48"
       ],
       "assetTargetFallback": true,
-      "warn": true
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
     }
   }
 }
