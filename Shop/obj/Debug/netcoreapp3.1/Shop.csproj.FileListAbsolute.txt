@@ -204,7 +204,6 @@ C:\Users\tresk\Desktop\Shop\Shop\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeA
 C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.csprojAssemblyReference.cache
 C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\staticwebassets\Shop.StaticWebAssets.Manifest.cache
 C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\staticwebassets\Shop.StaticWebAssets.xml
-C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.RazorAssemblyInfo.cache
 C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.RazorAssemblyInfo.cs
 C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfoInputs.cache
@@ -222,3 +221,9 @@ C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.Views.pdb
 C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CopyComplete
 C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.dll
 C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.pdb
+C:\Users\tresk\Desktop\Shop\Shop\bin\Debug\netcoreapp3.1\Json.dll
+C:\Users\tresk\Desktop\Shop\Shop\bin\Debug\netcoreapp3.1\DbSettings.json
+C:\Users\tresk\Desktop\Shop\Shop\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tresk\Desktop\Shop\Shop\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\tresk\Desktop\Shop\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\tresk\Desktop\Shop\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
