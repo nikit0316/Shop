@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\tresk\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\tresk\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Shop.-299489942.00" t="ExcludeRecursive" />
-    <e p="C:\Users\tresk\source\repos\Shop" t="IncludeFlat">
+    <e p="C:\Users\tresk\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Shop.583714592.00" t="ExcludeRecursive" />
+    <e p="C:\Users\tresk\Desktop\Shop" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="Shop" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
