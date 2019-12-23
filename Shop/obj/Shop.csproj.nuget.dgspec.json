@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tresk\\source\\repos\\Shop\\Shop\\Shop.csproj": {}
+    "C:\\Users\\tresk\\Desktop\\Shop\\Shop\\Shop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tresk\\source\\repos\\Shop\\Shop\\Shop.csproj": {
+    "C:\\Users\\tresk\\Desktop\\Shop\\Shop\\Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tresk\\source\\repos\\Shop\\Shop\\Shop.csproj",
+        "projectUniqueName": "C:\\Users\\tresk\\Desktop\\Shop\\Shop\\Shop.csproj",
         "projectName": "Shop",
-        "projectPath": "C:\\Users\\tresk\\source\\repos\\Shop\\Shop\\Shop.csproj",
+        "projectPath": "C:\\Users\\tresk\\Desktop\\Shop\\Shop\\Shop.csproj",
         "packagesPath": "C:\\Users\\tresk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tresk\\source\\repos\\Shop\\Shop\\obj\\",
+        "outputPath": "C:\\Users\\tresk\\Desktop\\Shop\\Shop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tresk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,16 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
