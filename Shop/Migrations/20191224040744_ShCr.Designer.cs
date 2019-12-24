@@ -10,8 +10,8 @@ using Shop.Data;
 namespace Shop.Migrations
 {
     [DbContext(typeof(AppDBContent))]
-    [Migration("20191224040354_CartShop")]
-    partial class CartShop
+    [Migration("20191224040744_ShCr")]
+    partial class ShCr
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
