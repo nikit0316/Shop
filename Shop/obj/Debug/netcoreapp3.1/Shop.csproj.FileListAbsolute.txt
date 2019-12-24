@@ -411,3 +411,4 @@ D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AllCars.cshtml.g.cs
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\ShopCart\Index.cshtml.g.cs
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\Checkout.cshtml.g.cs
+D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\Complete.cshtml.g.cs

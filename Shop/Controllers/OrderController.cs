@@ -25,5 +25,26 @@ namespace Shop.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Checkout(Order order)
+        {
+            shopCart.listShopItems = shopCart.getShopItems();
+
+            if (shopCart.listShopItems.Count == 0)
+                ModelState.AddModelError("", "You have no items in your cart!");
+            if (ModelState.IsValid)
+            {
+                allOrders.createOrder(order);
+                return RedirectToAction("Complete");
+            }
+            return View(order);
+        }
+
+        public IActionResult Complete()
+        {
+            ViewBag.Message = "Your order is processed successfully";
+            return View();
+        }
     }
 }
