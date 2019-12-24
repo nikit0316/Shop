@@ -405,3 +405,9 @@ C:\Users\tresk\Desktop\Shop\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcor
 C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\ShopCart\Index.cshtml.g.cs
 C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\GitHub_Repos\Shop\Shop\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+D:\GitHub_Repos\Shop\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AllCars.cshtml.g.cs
+D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\ShopCart\Index.cshtml.g.cs
+D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\Checkout.cshtml.g.cs
