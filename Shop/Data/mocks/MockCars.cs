@@ -32,7 +32,7 @@ namespace Shop.Data.mocks
                         longDesc="Удобный автомобиль для городской жизни",
                         img="/img/m3.jpg",
                         price=65000,
-                        isFavourite=true,
+                        isFavourite=false,
                         available=true,
                         Category=_categoryCars.AllCategories.Last()
                     },
