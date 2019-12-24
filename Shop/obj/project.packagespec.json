@@ -1,16 +1,15 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\tresk\\Desktop\\Shop\\Shop\\Shop.csproj",
+    "projectUniqueName": "D:\\GitHub_Repos\\Shop\\Shop\\Shop.csproj",
     "projectName": "Shop",
-    "projectPath": "C:\\Users\\tresk\\Desktop\\Shop\\Shop\\Shop.csproj",
-    "outputPath": "C:\\Users\\tresk\\Desktop\\Shop\\Shop\\obj\\",
+    "projectPath": "D:\\GitHub_Repos\\Shop\\Shop\\Shop.csproj",
+    "outputPath": "D:\\GitHub_Repos\\Shop\\Shop\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
@@ -27,6 +26,14 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "EntityFramework": {
+          "target": "Package",
+          "version": "[6.4.0, )"
+        },
+        "JSON": {
+          "target": "Package",
+          "version": "[1.0.1, )"
+        },
         "Microsoft.AspNet.Mvc": {
           "target": "Package",
           "version": "[5.2.7, )"
@@ -34,6 +41,28 @@
         "Microsoft.AspNetCore.StaticFiles": {
           "target": "Package",
           "version": "[2.2.0, )"
+        },
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.Abstractions": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.Relational": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[3.1.0, )"
         },
         "Microsoft.Extensions.Logging.Debug": {
           "target": "Package",
@@ -53,7 +82,16 @@
         "net48"
       ],
       "assetTargetFallback": true,
-      "warn": true
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
     }
   }
 }

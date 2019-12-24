@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\tresk\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\tresk\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Shop.583714592.00" t="ExcludeRecursive" />
-    <e p="C:\Users\tresk\Desktop\Shop" t="IncludeFlat">
+    <e p="C:\Users\Administrator\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Administrator\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Shop.-1813978945.00" t="ExcludeRecursive" />
+    <e p="D:\GitHub_Repos\Shop" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="Shop" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
@@ -13,6 +13,8 @@
           <e p="CarsController.cs" t="Include" />
         </e>
         <e p="Data" t="Include">
+          <e p="AppDBContent.cs" t="Include" />
+          <e p="DBObjects.cs" t="Include" />
           <e p="interfaces" t="Include">
             <e p="IAllCars.cs" t="Include" />
             <e p="ICarsCategory.cs" t="Include" />
@@ -24,12 +26,24 @@
           <e p="Models" t="Include">
             <e p="Car.cs" t="Include" />
             <e p="Category.cs" t="Include" />
+            <e p="ShopCartItem.cs" t="Include" />
           </e>
+          <e p="Repository" t="Include">
+            <e p="CarRepository.cs" t="Include" />
+            <e p="CategoryRepository.cs" t="Include" />
+          </e>
+        </e>
+        <e p="DbSettings.json" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20191223234255_initial.cs" t="Include" />
+          <e p="20191223234255_initial.Designer.cs" t="Include" />
+          <e p="AppDBContentModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
               <e p="Shop.AssemblyInfo.cs" t="Include" />
+              <e p="Shop.RazorAssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -50,6 +64,7 @@
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
+            <e p="AllCars.cshtml" t="Include" />
           </e>
         </e>
         <e p="wwwroot" t="Include">
@@ -69,8 +84,10 @@
             <e p="Style.css" t="Include" />
           </e>
           <e p="img" t="Include">
+            <e p="kaptur.jpg" t="Include" />
             <e p="m3.jpg" t="Include" />
             <e p="model s.jpg" t="Include" />
+            <e p="qas.jpg" t="Include" />
           </e>
           <e p="js" t="Include">
             <e p="bootstrap.bundle.js" t="Include" />
