@@ -35,6 +35,28 @@ namespace Shop.Data.mocks
                         isFavourite=true,
                         available=true,
                         Category=_categoryCars.AllCategories.Last()
+                    },
+                    new Car
+                    {
+                        name="Renault Kaptur",
+                        shortDesc="Элегантный кроссовер",
+                        longDesc="Моя страна. Мой стиль. Мой Renault.",
+                        img="/img/kaptur.jpg",
+                        price=20000,
+                        isFavourite=true,
+                        available=true,
+                        Category=_categoryCars.AllCategories.Last()
+                    },
+                    new Car
+                    {
+                        name="Nissan Qashaqai",
+                        shortDesc="Твой город. Твой ход.",
+                        longDesc="Будущее наступило. Ход за тобой.",
+                        img="/img/qas.jpg",
+                        price=24000,
+                        isFavourite=true,
+                        available=true,
+                        Category=_categoryCars.AllCategories.Last()
                     }
                 };
             }
