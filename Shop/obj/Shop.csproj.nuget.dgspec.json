@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub_Repos\\Shop\\Shop\\Shop.csproj": {}
+    "C:\\Users\\tresk\\Desktop\\Shop\\Shop\\Shop.csproj": {}
   },
   "projects": {
-    "D:\\GitHub_Repos\\Shop\\Shop\\Shop.csproj": {
+    "C:\\Users\\tresk\\Desktop\\Shop\\Shop\\Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub_Repos\\Shop\\Shop\\Shop.csproj",
+        "projectUniqueName": "C:\\Users\\tresk\\Desktop\\Shop\\Shop\\Shop.csproj",
         "projectName": "Shop",
-        "projectPath": "D:\\GitHub_Repos\\Shop\\Shop\\Shop.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_Repos\\Shop\\Shop\\obj\\",
+        "projectPath": "C:\\Users\\tresk\\Desktop\\Shop\\Shop\\Shop.csproj",
+        "packagesPath": "C:\\Users\\tresk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tresk\\Desktop\\Shop\\Shop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\tresk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +50,14 @@
               "target": "Package",
               "version": "[5.2.7, )"
             },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.StaticFiles": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -71,6 +81,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
               "version": "[3.1.0, )"
             },

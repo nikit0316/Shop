@@ -2,9 +2,9 @@
 {
     public class ShopCartItem
     {
-        public int itemId { get; set; }
+        public int id { get; set; }
         public Car car { get; set; }
-        private int price { get; set; }
+        public int price { get; set; }
         public string ShopCartId { get; set; }
     }
 }

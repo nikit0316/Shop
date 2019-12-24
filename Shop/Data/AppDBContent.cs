@@ -11,7 +11,7 @@ namespace Shop.Data
     {
         public AppDBContent(DbContextOptions<AppDBContent> options) : base(options)
         {
-
+            
         }
 
         public DbSet<Car> Car { get; set; }
