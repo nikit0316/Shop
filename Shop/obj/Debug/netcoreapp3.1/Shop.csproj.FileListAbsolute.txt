@@ -381,7 +381,6 @@ D:\GitHub_Repos\Shop\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.csprojAssemblyReference.cache
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\staticwebassets\Shop.StaticWebAssets.Manifest.cache
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\staticwebassets\Shop.StaticWebAssets.xml
-D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.MvcApplicationPartsAssemblyInfo.cache
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.RazorAssemblyInfo.cache
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.RazorAssemblyInfo.cs
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfoInputs.cache
@@ -412,3 +411,4 @@ D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AllCars.csh
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\ShopCart\Index.cshtml.g.cs
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\Checkout.cshtml.g.cs
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\Complete.cshtml.g.cs
+D:\GitHub_Repos\Shop\Shop\bin\Debug\netcoreapp3.1\Npgsql.dll

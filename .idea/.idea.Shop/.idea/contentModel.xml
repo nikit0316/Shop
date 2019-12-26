@@ -11,12 +11,16 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="CarsController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+          <e p="OrderController.cs" t="Include" />
+          <e p="ShopCartController.cs" t="Include" />
         </e>
         <e p="Data" t="Include">
           <e p="AppDBContent.cs" t="Include" />
           <e p="DBObjects.cs" t="Include" />
           <e p="interfaces" t="Include">
             <e p="IAllCars.cs" t="Include" />
+            <e p="IAllOrders.cs" t="Include" />
             <e p="ICarsCategory.cs" t="Include" />
           </e>
           <e p="mocks" t="Include">
@@ -26,17 +30,23 @@
           <e p="Models" t="Include">
             <e p="Car.cs" t="Include" />
             <e p="Category.cs" t="Include" />
+            <e p="Order.cs" t="Include" />
+            <e p="OrderDetail.cs" t="Include" />
+            <e p="ShopCart.cs" t="Include" />
             <e p="ShopCartItem.cs" t="Include" />
           </e>
           <e p="Repository" t="Include">
             <e p="CarRepository.cs" t="Include" />
             <e p="CategoryRepository.cs" t="Include" />
+            <e p="OrdersRepository.cs" t="Include" />
           </e>
         </e>
         <e p="DbSettings.json" t="Include" />
         <e p="Migrations" t="Include">
-          <e p="20191223234255_initial.cs" t="Include" />
-          <e p="20191223234255_initial.Designer.cs" t="Include" />
+          <e p="20191224163050_init.cs" t="Include" />
+          <e p="20191224163050_init.Designer.cs" t="Include" />
+          <e p="20191224175850_shoppingcart.cs" t="Include" />
+          <e p="20191224175850_shoppingcart.Designer.cs" t="Include" />
           <e p="AppDBContentModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -55,6 +65,8 @@
         <e p="Startup.cs" t="Include" />
         <e p="ViewModels" t="Include">
           <e p="CarsListViewModel.cs" t="Include" />
+          <e p="HomeViewModel.cs" t="Include" />
+          <e p="ShopCartViewModel.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
@@ -62,9 +74,19 @@
           <e p="Cars" t="Include">
             <e p="List.cshtml" t="Include" />
           </e>
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Order" t="Include">
+            <e p="Checkout.cshtml" t="Include" />
+            <e p="Complete.cshtml" t="Include" />
+          </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
             <e p="AllCars.cshtml" t="Include" />
+          </e>
+          <e p="ShopCart" t="Include">
+            <e p="Index.cshtml" t="Include" />
           </e>
         </e>
         <e p="wwwroot" t="Include">
