@@ -14,6 +14,7 @@ using Shop.Data.interfaces;
 using Shop.Data.mocks;
 using Shop.Data.Models;
 using Shop.Data.Repository;
+using Npgsql;
 
 namespace Shop
 {
@@ -30,7 +31,7 @@ namespace Shop
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<AppDBContent>(options => options.UseSqlServer(_confString.GetConnectionString("DefaultCOnnection")));
+            services.AddDbContext<AppDBContent>(options => options.UseNpgsql(_confString.GetConnectionString("DefaultConnection")));
             services.AddTransient<IAllCars, CarRepository>();
             services.AddTransient<ICarsCategory, CategoryRepository>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
