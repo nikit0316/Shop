@@ -43,7 +43,7 @@ namespace Shop.Controllers
 
         public IActionResult Complete()
         {
-            ViewBag.Message = "Your order is processed successfully";
+            ViewBag.Message = "Your order was processed successfully";
             return View();
         }
     }
