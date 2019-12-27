@@ -584,3 +584,4 @@ C:\Users\Никита\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.dll
 C:\Users\Никита\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.pdb
 D:\GitHub_Repos\Shop\Shop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Никита\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
