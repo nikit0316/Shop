@@ -9,18 +9,18 @@ namespace Shop.ViewModels
         public string Email { get; set; }
 
         [Required]
-        [Display(Name = "Год рождения")]
+        [Display(Name = "Year Of Birth")]
         public int Year { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
-        [Display(Name = "Пароль")]
+        [Display(Name = "Password")]
         public string Password { get; set; }
 
         [Required]
-        [Compare("Password", ErrorMessage = "Пароли не совпадают")]
+        [Compare("Password", ErrorMessage = "Passwords Don't Match")]
         [DataType(DataType.Password)]
-        [Display(Name = "Подтвердить пароль")]
+        [Display(Name = "Confirm Passsword")]
         public string PasswordConfirm { get; set; }
     }
 }
