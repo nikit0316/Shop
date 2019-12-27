@@ -411,8 +411,13 @@ D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AllCars.csh
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\ShopCart\Index.cshtml.g.cs
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\Checkout.cshtml.g.cs
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\Complete.cshtml.g.cs
+<<<<<<< Updated upstream
 D:\GitHub_Repos\Shop\Shop\bin\Debug\netcoreapp3.1\Npgsql.dll
 D:\GitHub_Repos\Shop\Shop\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.MvcApplicationPartsAssemblyInfo.cache
 D:\GitHub_Repos\Shop\Shop\bin\Debug\netcoreapp3.1\NodaTime.dll
 D:\GitHub_Repos\Shop\Shop\bin\Debug\netcoreapp3.1\Npgsql.NodaTime.dll
+=======
+C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\Checkout.cshtml.g.cs
+C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\Complete.cshtml.g.cs
+>>>>>>> Stashed changes
