@@ -15,6 +15,7 @@ using Shop.Data.mocks;
 using Shop.Data.Models;
 using Shop.Data.Repository;
 using Npgsql;
+using Microsoft.AspNetCore.Identity;
 
 namespace Shop
 {
@@ -40,6 +41,9 @@ namespace Shop
         {
             services.AddDbContext<AppDBContent>(opt
                 => opt.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddIdentity<Users, IdentityRole>()
+                .AddEntityFrameworkStores<AppDBContent>();
+            services.AddControllersWithViews();
             services.AddTransient<IAllCars, CarRepository>();
             services.AddTransient<IAllOrders, OrdersRepository>();
             services.AddTransient<ICarsCategory, CategoryRepository>();
@@ -57,6 +61,13 @@ namespace Shop
             app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseSession();
+            app.UseHttpsRedirection();
+            app.UseStaticFiles();
+
+            app.UseRouting();
+
+            app.UseAuthentication();    // подключение аутентификации
+            app.UseAuthorization();
             //app.UseMvcWithDefaultRoute();
             app.UseMvc(routes =>
             {
