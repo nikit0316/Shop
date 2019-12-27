@@ -31,8 +31,13 @@ namespace CustomIdentityApp.Controllers
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
+<<<<<<< Updated upstream
                     // установка куки
                     await _signInManager.PasswordSignInAsync(user.Email, user.PasswordHash, false, false);
+=======
+                    // установка куки                    
+                    await _signInManager.SignInAsync(user, false);
+>>>>>>> Stashed changes
                     return RedirectToAction("Index", "Home");
                 }
                 else

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Npgsql;
+using Microsoft.AspNetCore.Identity;
 
 namespace Shop.Data
 {
@@ -21,9 +22,11 @@ namespace Shop.Data
         public DbSet<Order> Order { get; set; }
         public DbSet<OrderDetail> OrderDetail { get; set; }
         public DbSet<Users> Users { get; set; }
+        public DbSet<Microsoft.AspNetCore.Identity.IdentityUserClaim<Guid>> IdentityUserClaims { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<IdentityUserClaim<string>>().HasKey(p => new { p.Id });
             modelBuilder.Entity<Users>().HasKey(x => x.id);
             base.OnModelCreating(modelBuilder);
         }
