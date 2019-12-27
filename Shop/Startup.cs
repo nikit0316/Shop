@@ -41,13 +41,13 @@ namespace Shop
             services.AddDbContext<AppDBContent>(opt
                 => opt.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IAllCars, CarRepository>();
+            services.AddTransient<IAllOrders, OrdersRepository>();
             services.AddTransient<ICarsCategory, CategoryRepository>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped(sp => ShopCart.GetCart(sp));
             services.AddMvc(option => option.EnableEndpointRouting = false);
             services.AddMemoryCache();
             services.AddSession();
-            services.AddTransient<IAllOrders, OrdersRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

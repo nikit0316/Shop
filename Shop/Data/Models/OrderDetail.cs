@@ -9,7 +9,7 @@ namespace Shop.Data.Models
     {
         public int id { get; set; }
 
-        public int orderId { get; set; }
+        //public Order order { get; set; }
 
         public int carId { get; set; }
 
@@ -17,6 +17,6 @@ namespace Shop.Data.Models
 
         public virtual Car car { get; set; }
 
-        public virtual Order order { get; set; }
+        //public virtual Order order { get; set; }
     }
 }

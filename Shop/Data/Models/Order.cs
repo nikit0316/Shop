@@ -43,6 +43,8 @@ namespace Shop.Data.Models
         [ScaffoldColumn(false)]
         public DateTime orderTime { get; set; }
 
+        public virtual OrderDetail detail { get; set; }
+
         public List<OrderDetail> orderDetails { get; set; }
     }
 }

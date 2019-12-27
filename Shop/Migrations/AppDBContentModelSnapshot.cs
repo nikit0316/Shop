@@ -86,6 +86,9 @@ namespace Shop.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<int?>("detailid")
+                        .HasColumnType("integer");
+
                     b.Property<string>("email")
                         .IsRequired()
                         .HasColumnType("text");
@@ -107,6 +110,8 @@ namespace Shop.Migrations
 
                     b.HasKey("id");
 
+                    b.HasIndex("detailid");
+
                     b.ToTable("Order");
                 });
 
@@ -117,10 +122,10 @@ namespace Shop.Migrations
                         .HasColumnType("integer")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
-                    b.Property<int>("carId")
+                    b.Property<int?>("Orderid")
                         .HasColumnType("integer");
 
-                    b.Property<int>("orderId")
+                    b.Property<int>("carId")
                         .HasColumnType("integer");
 
                     b.Property<int>("price")
@@ -128,9 +133,9 @@ namespace Shop.Migrations
 
                     b.HasKey("id");
 
-                    b.HasIndex("carId");
+                    b.HasIndex("Orderid");
 
-                    b.HasIndex("orderId");
+                    b.HasIndex("carId");
 
                     b.ToTable("OrderDetail");
                 });
@@ -188,17 +193,22 @@ namespace Shop.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Shop.Data.Models.Order", b =>
+                {
+                    b.HasOne("Shop.Data.Models.OrderDetail", "detail")
+                        .WithMany()
+                        .HasForeignKey("detailid");
+                });
+
             modelBuilder.Entity("Shop.Data.Models.OrderDetail", b =>
                 {
+                    b.HasOne("Shop.Data.Models.Order", null)
+                        .WithMany("orderDetails")
+                        .HasForeignKey("Orderid");
+
                     b.HasOne("Shop.Data.Models.Car", "car")
                         .WithMany()
                         .HasForeignKey("carId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Shop.Data.Models.Order", "order")
-                        .WithMany("orderDetails")
-                        .HasForeignKey("orderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
