@@ -12,7 +12,7 @@ namespace Shop.Data
     {
         public AppDBContent(DbContextOptions<AppDBContent> options) : base(options)
         {
-            
+            Database.EnsureCreated();
         }
 
         public DbSet<Car> Car { get; set; }
@@ -20,6 +20,7 @@ namespace Shop.Data
         public DbSet<ShopCartItem> ShopCartItem { get; set; }
         public DbSet<Order> Order { get; set; }
         public DbSet<OrderDetail> OrderDetail { get; set; }
+        public DbSet<Users> Users { get; set; }
 
     }
 }

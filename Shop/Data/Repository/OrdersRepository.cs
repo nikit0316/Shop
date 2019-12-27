@@ -26,13 +26,13 @@ namespace Shop.Data.Repository
 
             var items = shopCart.listShopItems;
 
-            foreach (var item in items)
+            foreach (var car in items)
             {
                 var orderDetail = new OrderDetail()
                 {
-                    carId = item.car.id,
                     orderId = order.id,
-                    price = item.car.price
+                    carId = car.car.id,
+                    price = car.car.price
                 };
                 appDBContent.OrderDetail.Add(orderDetail);
             }
