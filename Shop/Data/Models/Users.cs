@@ -8,6 +8,7 @@ namespace Shop.Data.Models
 {
     public class Users : IdentityUser
     {
+        public int id { get; set; }
         public int OrderId { get; set; }
         public int Year { get; set; }
     }

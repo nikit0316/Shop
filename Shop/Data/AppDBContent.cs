@@ -22,5 +22,10 @@ namespace Shop.Data
         public DbSet<OrderDetail> OrderDetail { get; set; }
         public DbSet<Users> Users { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Users>().HasKey(x => x.id);
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }
