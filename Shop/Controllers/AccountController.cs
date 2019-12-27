@@ -32,7 +32,7 @@ namespace CustomIdentityApp.Controllers
                 if (result.Succeeded)
                 {
                     // установка куки
-                    await _signInManager.SignInAsync(user, false);
+                    await _signInManager.PasswordSignInAsync(user.Email, user.PasswordHash, false, false);
                     return RedirectToAction("Index", "Home");
                 }
                 else
