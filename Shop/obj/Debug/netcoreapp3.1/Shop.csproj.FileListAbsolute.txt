@@ -401,7 +401,6 @@ D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.pdb
 C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AllCars.cshtml.g.cs
 C:\Users\tresk\Desktop\Shop\Shop\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
 C:\Users\tresk\Desktop\Shop\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
-C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\ShopCart\Index.cshtml.g.cs
 C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\GitHub_Repos\Shop\Shop\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
@@ -416,3 +415,12 @@ D:\GitHub_Repos\Shop\Shop\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.Pos
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.MvcApplicationPartsAssemblyInfo.cache
 D:\GitHub_Repos\Shop\Shop\bin\Debug\netcoreapp3.1\NodaTime.dll
 D:\GitHub_Repos\Shop\Shop\bin\Debug\netcoreapp3.1\Npgsql.NodaTime.dll
+C:\Users\tresk\Desktop\Shop\Shop\bin\Debug\netcoreapp3.1\NodaTime.dll
+C:\Users\tresk\Desktop\Shop\Shop\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\tresk\Desktop\Shop\Shop\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\tresk\Desktop\Shop\Shop\bin\Debug\netcoreapp3.1\Npgsql.NodaTime.dll
+C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\Checkout.cshtml.g.cs
+C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\Complete.cshtml.g.cs
+C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tresk\Desktop\Shop\Shop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\tresk\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
