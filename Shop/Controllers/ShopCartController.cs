@@ -2,6 +2,7 @@
 using Shop.Data.interfaces;
 using Shop.Data.Models;
 using Shop.ViewModels;
+using Shop.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,8 @@ namespace Shop.Controllers
     {
         private IAllCars _carRep;
         private readonly ShopCart _shopCart;
+        private readonly ShopCartItem shopCartItem;
+        private readonly AppDBContent appDBContent;
 
         public ShopCartController(IAllCars carRep, ShopCart shopCart)
         {

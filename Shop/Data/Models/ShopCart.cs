@@ -38,6 +38,12 @@ namespace Shop.Data.Models
             appDBContent.SaveChanges();
         }
 
+        public void removeFromCart(ShopCartItem shopCartItem)
+        {
+            appDBContent.Remove(shopCartItem);
+            appDBContent.SaveChanges();
+        }
+
         public List<ShopCartItem> getShopItems()
         {
             return appDBContent.ShopCartItem.Where(c => c.ShopCartId == ShopCartId).Include(s => s.car).ToList();
