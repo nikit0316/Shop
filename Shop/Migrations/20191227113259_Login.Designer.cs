@@ -10,8 +10,8 @@ using Shop.Data;
 namespace Shop.Migrations
 {
     [DbContext(typeof(AppDBContent))]
-    [Migration("20191227075833_AhShit")]
-    partial class AhShit
+    [Migration("20191227113259_Login")]
+    partial class Login
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
