@@ -1,12 +1,19 @@
-﻿@model HomeViewModel
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+<h2>Логин</h2>
+<div class="row mt-2 mb-2">
+@if (User.Identity.IsAuthenticated)
+{
+	<p>@User.Identity.Name</p>
 
-<h1>Лучшие автомобили</h1>
-<div class="row mt-5 mb-2">
-	@{
-		foreach (Car car in Model.favCars)
-		{
-			@Html.Partial("AllCars", car);
-		}
-	}
+	<form method="post" asp-controller="Account" asp-action="Logout">
+		<input type="submit" value="Выход" />
+	</form>
+}
+else
+{
+	<a asp-controller="Account" asp-action="Login">Вход</a>
+	<a asp-controller="Account" asp-action="Register">Регистрация</a>
+}
 </div>
-
