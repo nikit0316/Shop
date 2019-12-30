@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Shop.Data.interfaces;
 using Shop.Data.Models;
@@ -9,6 +10,7 @@ using Shop.ViewModels;
 
 namespace Shop.Controllers
 {
+    [Authorize(Roles = "User")]
     public class OrdersListController : Controller
     {
         private IAllCars _carRep;

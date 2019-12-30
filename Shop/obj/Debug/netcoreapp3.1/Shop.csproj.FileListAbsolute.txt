@@ -601,3 +601,4 @@ D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Users\Create.cshtm
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Users\Edit.cshtml.g.cs
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Users\Index.cshtml.g.cs
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\OrdersList\Index.cshtml.g.cs
+C:\Users\Никита\Desktop\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\OrdersList\Index.cshtml.g.cs

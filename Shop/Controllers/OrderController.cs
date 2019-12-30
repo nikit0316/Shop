@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Shop.Data;
 using Shop.Data.interfaces;
 using Shop.Data.Models;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace Shop.Controllers
 {
+    [Authorize(Roles = "User")]
     public class OrderController : Controller
     {
         private readonly IAllOrders allOrders;
