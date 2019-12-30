@@ -5,6 +5,7 @@
 	<div class="alert alert-warning mt-3">
 		<b>Car:</b> @el.car.name<br />
 		<b>Price:</b> @el.car.price.ToString("c")
+		<a class="btn btn-danger" asp-controller="ShopCart" asp-action="removeFromCart">-</a>
 	</div> 
 	}
 	<br />

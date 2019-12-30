@@ -44,5 +44,12 @@ namespace Shop.Controllers
             }
             return RedirectToAction("Index");
         }
+
+        public RedirectToActionResult removeFromCart(int id)
+        {
+            var items = _shopCart.getShopItems();
+            _shopCart.removeFromCart(items[id]);
+            return RedirectToAction("Index");
+        }
     }
 }

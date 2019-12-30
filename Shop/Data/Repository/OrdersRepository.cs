@@ -29,6 +29,8 @@ namespace Shop.Data.Repository
 
             order.detail = orderDetail;
 
+            
+
             foreach (var car in items)
             {
                 orderDetail.carId = car.car.id;
