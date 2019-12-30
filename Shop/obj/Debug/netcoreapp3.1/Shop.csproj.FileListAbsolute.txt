@@ -600,3 +600,4 @@ D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Roles\UserList.csh
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Users\Create.cshtml.g.cs
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Users\Edit.cshtml.g.cs
 D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Users\Index.cshtml.g.cs
+D:\GitHub_Repos\Shop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\OrdersList\Index.cshtml.g.cs

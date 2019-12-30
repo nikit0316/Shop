@@ -14,8 +14,6 @@ namespace Shop.Controllers
     {
         private IAllCars _carRep;
         private readonly ShopCart _shopCart;
-        private readonly ShopCartItem shopCartItem;
-        private readonly AppDBContent appDBContent;
 
         public ShopCartController(IAllCars carRep, ShopCart shopCart)
         {
